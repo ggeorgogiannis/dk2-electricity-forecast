@@ -26,12 +26,27 @@ private data archive or trained model caches. Tests and the demo ran from that
 copy. The code tests establish reproducibility of the offline pipeline; synthetic
 demo outputs are not evidence of market accuracy.
 
+## Initial GitHub publication
+
+After the preparation checks, the owner authorized publication. The public
+[repository](https://github.com/ggeorgogiannis/dk2-electricity-forecast) was
+created and initial commit
+[`9a79bf2`](https://github.com/ggeorgogiannis/dk2-electricity-forecast/commit/9a79bf255238cfbfd3b501084c47a4f33a230916)
+was pushed on 25 November 2026. The
+[first hosted workflow](https://github.com/ggeorgogiannis/dk2-electricity-forecast/actions/runs/45602150215)
+completed successfully on both Windows and Linux. Each job includes dependency
+installation/consistency, the publication audit, Ruff, pytest and the offline demo.
+An explicit LF line-ending policy preserves hashed provenance across checkouts;
+the exact staged public files and retained hashes were checked before committing.
+No forecast tasks were enabled and no GitHub release was created.
+
+The earlier no-commit/no-remote statements describe the preparation phase before
+that authorization. No prospective accuracy evidence was created by publication.
+
 ## Checks that remain pending
 
-- Hosted GitHub Actions on Windows and Linux. Local YAML/configuration inspection
-  does not establish that either hosted runner succeeds.
 - Repository-specific dependency alerts, secret scanning and security settings.
-  No remote is configured and no successful badge is claimed.
+  A passing CI run does not establish these settings.
 - A genuinely fresh prospective accuracy period and verified on-time live runs.
   Existing missed days and historical replays remain in their original categories.
 - Reproduction of the exact market archive from a fresh public clone without

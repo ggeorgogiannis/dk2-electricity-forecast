@@ -1,5 +1,7 @@
 # DK2 electricity-price forecasting
 
+[![Checks](https://github.com/ggeorgogiannis/dk2-electricity-forecast/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ggeorgogiannis/dk2-electricity-forecast/actions/workflows/ci.yml)
+
 Can a price-history model beat yesterday's electricity-price curve when
 forecasting tomorrow's DK2 day-ahead prices?
 
@@ -66,9 +68,10 @@ The `.venv\python.exe` layout is a project-local **Conda** environment. For a
 standard Python virtual environment, use `.venv\Scripts\python.exe` instead.
 The [reproduction guide](docs/reproduction.md) also covers an isolated standard
 venv. On Linux, use `python3.12 -m venv .venv` and `.venv/bin/python` for the
-equivalent commands. Windows/Linux CI is configured; hosted runs remain pending
-until the repository is pushed. See the dated [local verification record](docs/publication-checks.md)
-for checks actually executed.
+equivalent commands. Both Windows and Linux checks passed for the
+[initial publication](https://github.com/ggeorgogiannis/dk2-electricity-forecast/actions/runs/45602150215).
+See the dated [verification record](docs/publication-checks.md) for local and
+hosted checks actually executed.
 
 The demo generates **synthetic** prices, validates a DST-spanning range and
 saves a labelled historical forecast under ignored `data/demo`. It needs no
