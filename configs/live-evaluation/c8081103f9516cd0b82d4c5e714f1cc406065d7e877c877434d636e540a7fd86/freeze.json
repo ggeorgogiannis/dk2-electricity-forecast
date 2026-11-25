@@ -1,0 +1,90 @@
+{
+  "baseline_versions": [
+    "lag-168h-utc-v1",
+    "previous-local-day-earliest-utc-weekly-fallback-v1"
+  ],
+  "development_choice": "catboost",
+  "development_data_version": "e92c30111d006847b1c84547b477166466571e7e907480dbd15ae525eb943f53",
+  "development_report_sha256": "c03d5678158816a01027caad42e7792b78f8f2a5faf9262d4c1a670ca3a6f831",
+  "end_exclusive": "2027-01-13",
+  "features": [
+    "local_quarter",
+    "weekday",
+    "month",
+    "utc_offset_hours",
+    "price_lag_24h",
+    "price_lag_48h",
+    "price_lag_72h",
+    "price_lag_168h",
+    "price_lag_336h",
+    "price_lag_672h",
+    "previous_danish_day_price"
+  ],
+  "fold_days": 28,
+  "frozen_at_utc": "2026-11-16T11:52:59.560823+00:00",
+  "implementation_sha256": "5b29d634768fbf69466e613aa8258a45a59f342af16de18db187fcc1f1177ec4",
+  "models": {
+    "catboost": {
+      "family": "catboost",
+      "params": {
+        "allow_writing_files": false,
+        "depth": 4,
+        "iterations": 160,
+        "l2_leaf_reg": 0.8889607461211928,
+        "learning_rate": 0.07307803426594507,
+        "loss_function": "MAE",
+        "random_seed": 42,
+        "task_type": "CPU",
+        "thread_count": 1,
+        "verbose": false
+      },
+      "previous_day": true
+    },
+    "elastic_net": {
+      "family": "elastic_net",
+      "params": {
+        "alpha": 1.0,
+        "l1_ratio": 0.9,
+        "max_iter": 10000
+      },
+      "previous_day": true
+    },
+    "lightgbm": {
+      "family": "lightgbm",
+      "params": {
+        "deterministic": true,
+        "device_type": "cpu",
+        "force_col_wise": true,
+        "lambda_l2": 0.026805897004893327,
+        "learning_rate": 0.048924143275225165,
+        "min_data_in_leaf": 20,
+        "num_boost_round": 160,
+        "num_leaves": 15,
+        "num_threads": 1,
+        "objective": "regression_l1",
+        "seed": 42,
+        "verbosity": -1
+      },
+      "previous_day": true
+    }
+  },
+  "scoring": {
+    "absolute_error_bands": [
+      25,
+      50
+    ],
+    "delivery_day_reference": "previous_day",
+    "extreme_quantile": 0.99,
+    "extreme_quantile_method": "higher",
+    "extreme_threshold_eur_per_mwh": 276.019989,
+    "spike_threshold_eur_per_mwh": 200
+  },
+  "start": "2026-11-18",
+  "versions": {
+    "catboost": "1.2.8",
+    "lightgbm": "4.6.0",
+    "numpy": "2.2.6",
+    "optuna": "4.5.0",
+    "scikit-learn": "1.6.1"
+  }
+}

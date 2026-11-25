@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "end_exclusive": "2026-04-09",
+      "intervals": 672,
+      "max_absolute_difference": 0.0,
+      "start": "2026-04-02"
+    },
+    {
+      "end_exclusive": "2026-09-21",
+      "intervals": 384,
+      "max_absolute_difference": 0.0,
+      "start": "2026-09-17"
+    }
+  ],
+  "created_at_utc": "2026-11-18 12:38:01.371938+00:00",
+  "source_bundle_sha256": "745fa01ab85d846968acfdb761467cdd912cc7b1b904f4abfc94980fd50182a4"
+}

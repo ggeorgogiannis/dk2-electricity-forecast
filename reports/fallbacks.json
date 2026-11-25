@@ -1,0 +1,8 @@
+{
+  "data_version": "e92c30111d006847b1c84547b477166466571e7e907480dbd15ae525eb943f53",
+  "start": "2026-04-02",
+  "end_exclusive": "2026-09-21",
+  "intervals": 16512,
+  "previous_day_weekly_utc_fallbacks": 0,
+  "weekday_persistence_weekly_utc_fallbacks": 4
+}

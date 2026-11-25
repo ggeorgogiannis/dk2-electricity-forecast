@@ -1,0 +1,17 @@
+[
+  {
+    "delivery_date": "2026-06-25",
+    "model_mae": 21.134821586389048,
+    "baseline_mae": 75.48062424999999
+  },
+  {
+    "delivery_date": "2026-08-08",
+    "model_mae": 24.622925857466466,
+    "baseline_mae": 28.91197940625001
+  },
+  {
+    "delivery_date": "2026-06-24",
+    "model_mae": 106.98501074896676,
+    "baseline_mae": 33.917499
+  }
+]

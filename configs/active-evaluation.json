@@ -1,0 +1,13 @@
+{
+  "active_evaluation_id": "f23d494fd3e14712135466641812f37c92fbbf58e0fa319bae24391336b7f95c",
+  "active_candidate_id": "326385f66d1c7f75ecbdb67cd8dce96d7656033a366c1f1225120de18f6d5e62",
+  "plan": "data/research_live/evaluations/f23d494fd3e14712135466641812f37c92fbbf58e0fa319bae24391336b7f95c/freeze.json",
+  "superseded_setup_evaluations": [
+    {
+      "evaluation_id": "a9e72c449962e2bd25bf50657fba218642d33a1bd97dab8e0d64ebc4817745ba",
+      "candidate_id": "c80e40d83dec7a30f0c10c05d303e65d6d5dfe75f439d459f811b84c0c7a3f48",
+      "state": "retained_before_first_issue_tasks_disabled",
+      "reason": "Final quantile-origin recovery and model-cache provenance validation changed implementation version; no forecasts were issued."
+    }
+  ]
+}

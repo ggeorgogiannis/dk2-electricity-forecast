@@ -1,0 +1,15 @@
+{
+  "candidate_id": "326385f66d1c7f75ecbdb67cd8dce96d7656033a366c1f1225120de18f6d5e62",
+  "configuration": "configs/evaluations/f23d494fd3e14712135466641812f37c92fbbf58e0fa319bae24391336b7f95c/freeze.json",
+  "report": {
+    "path": "configs/evaluations/f23d494fd3e14712135466641812f37c92fbbf58e0fa319bae24391336b7f95c/report.json",
+    "sha256": "803ba646661d6a4f4691f305e8c00dac5384e7022751f4c5a0dbfb0f065ef02a"
+  },
+  "source_bundle": {
+    "path": "configs/retained_sources/5775ce37204d12901d2b983e69179f20ce8a7b384cf6b0671de173d226f931dc/source.zip",
+    "archive_sha256": "9a768880cef64d11aa02ef4c134eb88544aab8015beef2d8afaa36c8f8f6f28d",
+    "content_identity": "5775ce37204d12901d2b983e69179f20ce8a7b384cf6b0671de173d226f931dc"
+  },
+  "contains_raw_prices": false,
+  "contains_trained_models": false
+}
